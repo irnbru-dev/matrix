@@ -1,0 +1,63 @@
+.header {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 43.75rem; //700px
+    padding: 12.5rem 0.9375rem;
+  }
+
+  &__logo {
+    margin-bottom:2.5rem;
+  }
+
+  h1 {
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  .more {
+    color: @white;
+    border: 1px solid @white;
+    padding: 15px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .fa-chevron-down {
+    color: @white;
+    font-size: 2rem;
+    font-weight: 300;
+    position: absolute;
+    bottom: 2rem;
+  }
+}
+
+.video-wrap {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.overlay {
+  background: @black;
+  opacity: 0.5;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
