@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  text-align: center;
 
   &__wrap {
     display: flex;
@@ -11,6 +12,7 @@
     justify-content: center;
     align-items: center;
     max-width: 43.75rem; //700px
+    width: 43.75rem; //700px
     padding: 12.5rem 0.9375rem;
   }
 
@@ -21,43 +23,39 @@
   h1 {
     font-weight: 300;
     margin-bottom: 2.5rem;
-    span {
+    width: 100%; //fix for IE
+
+    .header__title {
       text-transform: uppercase;
+    }
+
+    @media (max-width:991px) {
+      font-size: 20px;
     }
   }
 
   .more {
     color: @white;
     border: 1px solid @white;
-    padding: 15px 50px;
+    padding: 0.9rem 3rem;
     text-decoration: none;
     text-transform: uppercase;
   }
 
-  .fa-chevron-down {
-    color: @white;
-    font-size: 2rem;
-    font-weight: 300;
+  .more--arrow {
     position: absolute;
     bottom: 2rem;
+    animation: arrowMove 2s ease-in-out infinite;
+
+    @keyframes arrowMove {
+      0%,
+      100% {
+        transform: translate(0, 0);
+      }
+
+      50% {
+        transform: translate(0, 10px);
+      }
+    }
   }
-}
-
-.video-wrap {
-  position: absolute;
-  top:0;
-  left: 0;
-  right: 0;
-  z-index: -2;
-}
-
-.overlay {
-  background: @black;
-  opacity: 0.5;
-  position: absolute;
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
 }

@@ -1,6 +1,19 @@
 .contacts {
-  opacity: 0.6;
-  padding: 2rem 0;
+  color: #5a5a5a;
+  padding: 1.5rem 0;
+  font-weight: 500;
+  background-color: transparent;
+
+  &.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(7, 7, 7, 0.8);
+    z-index: 10;
+    transition: background-color .5s ease-in-out;
+  }
 
   &__wrap {
     display: flex;
@@ -9,5 +22,20 @@
     @media (max-width: 767px) {
       flex-direction: column;
     }
+  }
+}
+
+.ftr-contacts {
+  text-align: center;
+
+  h2 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .flex-wrap {
+    display: flex;
+    justify-content: space-around;
   }
 }

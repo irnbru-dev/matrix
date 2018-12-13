@@ -1,0 +1,38 @@
+.video-section {
+
+  &__wrap {
+    position: relative;
+  }
+
+  &__wrap .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  p {
+    margin-top: 3rem;
+  }
+}
+
+.video-wrap {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.overlay {
+  background: @black;
+  opacity: 0.7;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
