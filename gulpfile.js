@@ -15,7 +15,7 @@ var path = {
     },
     src: {
         less:       'less/style.less',
-        js:         'js/script.js'
+        js:         'js/*.js'
     },
     watch: {
         less:       'less/style.less',
