@@ -10,16 +10,16 @@ var gulp = require('gulp'),
 
 var path = {
     dest: {
-        css:        'css/',
-        js:         'js/'
+        css:        'wp-content/themes/newmechanics/css/',
+        js:         'wp-content/themes/newmechanics/js/'
     },
     src: {
-        less:       'less/style.less',
-        js:         'js/*.js'
+        less:       'src/less/style.less',
+        js:         'src/js/*.js'
     },
     watch: {
-        less:       'less/style.less',
-        js:         'js/*.js'
+        less:       'src/less/style.less',
+        js:         'src/js/*.js'
     }
 };
 

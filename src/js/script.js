@@ -40,13 +40,21 @@ $(function () {
  * Skrollr.js Init
  */
 $(function () {
-    var s = skrollr.init({
-        edgeStrategy: 'set',
-        easing: {
-            WTF: Math.random,
-            inverted: function (p) {
-                return 1 - p;
-            }
+
+    $(window).on('load resize', function () {
+        if ($(window).width() > '992') {
+
+            var s = skrollr.init({
+                edgeStrategy: 'set',
+                easing: {
+                    WTF: Math.random,
+                    inverted: function (p) {
+                        return 1 - p;
+                    }
+                }
+            })
+
         }
-    });
+    })
+
 });

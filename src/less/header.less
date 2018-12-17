@@ -6,6 +6,12 @@
   height: 100vh;
   text-align: center;
 
+  video {
+    @media (max-width:991px) {
+      display: none;
+    }
+  }
+
   &__wrap {
     display: flex;
     flex-direction: column;
@@ -14,6 +20,9 @@
     max-width: 43.75rem; //700px
     width: 43.75rem; //700px
     padding: 12.5rem 0.9375rem;
+    @media (max-width:991px) {
+      background: url("../img/header-mobile-bg.jpg") no-repeat 100%;
+    }
   }
 
   &__logo {
