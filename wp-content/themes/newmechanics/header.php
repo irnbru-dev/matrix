@@ -11,7 +11,7 @@
 <body>
 
 <header class="header">
-    <div class="video-wrap">
+    <div class="head-video-wrap">
         <video id="video" width="100%" height="auto" autoplay loop muted allowfullscreen>
             <source src="wp-content/themes/newmechanics/video/Kinetic Rain-Changi Airport-Singapore.mp4"></source>
         </video>

@@ -2,6 +2,20 @@
 
   &__wrap {
     position: relative;
+    height: 270px;
+
+    @media (min-width: 768px) {
+      height: 422px;
+    }
+
+    @media (min-width: 992px) {
+      height: 546px;
+    }
+
+    @media (min-width: 1200px) {
+      height: 648px;
+    }
+
   }
 
   &__wrap .overlay{
@@ -15,6 +29,12 @@
 
   p {
     margin-top: 3rem;
+  }
+
+  .overlay {
+    @media (max-width:991px) {
+      display: none;
+    }
   }
 }
 

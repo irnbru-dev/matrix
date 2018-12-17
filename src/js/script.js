@@ -45,13 +45,13 @@ $(function () {
         if ($(window).width() > '992') {
 
             var s = skrollr.init({
-                edgeStrategy: 'set',
-                easing: {
-                    WTF: Math.random,
-                    inverted: function (p) {
-                        return 1 - p;
-                    }
-                }
+                edgeStrategy: 'set'
+                // easing: {
+                //     WTF: Math.random,
+                //     inverted: function (p) {
+                //         return 1 - p;
+                //     }
+                // }
             })
 
         }
