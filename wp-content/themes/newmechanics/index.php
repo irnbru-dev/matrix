@@ -36,8 +36,8 @@
     <section class="video-section">
         <div class="container">
             <div class="video-section__wrap">
-                <div class="overlay"></div>
-                <iframe width="100%" height="100%" src="<?= carbon_get_theme_option("video1_src"); ?>?autoplay=1"
+<!--                <div class="overlay"></div>-->
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/<?= carbon_get_theme_option("video1_id"); ?>?autoplay=1&loop=1&rel=0&showinfo=0&playlist=<?= carbon_get_theme_option("video1_id"); ?>"
                         frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen loop></iframe>
@@ -65,8 +65,8 @@
         <div class="container">
             <!--<video src=""></video>-->
             <div class="video-section__wrap">
-                <div class="overlay"></div>
-                <iframe width="100%" height="100%" src="<?= carbon_get_theme_option("video2_src"); ?>?autoplay=1"
+<!--                <div class="overlay"></div>-->
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/<?= carbon_get_theme_option("video2_id"); ?>?autoplay=1&loop=1&rel=0&showinfo=0&playlist=<?= carbon_get_theme_option("video2_id"); ?>"
                         frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen loop></iframe>
@@ -92,8 +92,8 @@
         <div class="container">
             <!--<video src=""></video>-->
             <div class="video-section__wrap">
-                <div class="overlay"></div>
-                <iframe width="100%" height="100%" src="<?= carbon_get_theme_option("video3_src"); ?>?autoplay=1"
+<!--                <div class="overlay"></div>-->
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/<?= carbon_get_theme_option("video3_id"); ?>?autoplay=1&loop=1&rel=0&showinfo=0&playlist=<?= carbon_get_theme_option("video3_id"); ?>"
                         frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen loop></iframe>

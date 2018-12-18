@@ -20,7 +20,7 @@ Container::make('theme_options', 'Контент')
     ))
     // Первое видео
     ->add_tab('Первое видео', array(
-        Field::make('text', 'video1_src', 'Ссылка на видео'),
+        Field::make('text', 'video1_id', 'VIDEO_ID (идентификатор видео из ссылки https://youtu.be/VIDEO_ID)'),
         Field::make('rich_text', 'video1_txt', 'Текст под видео')
     ))
     // Вопросы
@@ -34,7 +34,7 @@ Container::make('theme_options', 'Контент')
     ))
     // Второе видео
     ->add_tab('Второе видео', array(
-        Field::make('text', 'video2_src', 'Ссылка на видео'),
+        Field::make('text', 'video2_id', 'VIDEO_ID (идентификатор видео из ссылки https://youtu.be/VIDEO_ID)'),
         Field::make('rich_text', 'video2_txt', 'Текст под видео')
     ))
     // Вопросы
@@ -49,7 +49,7 @@ Container::make('theme_options', 'Контент')
 
     // Третье видео
     ->add_tab('Третье видео', array(
-        Field::make('text', 'video3_src', 'Ссылка на видео'),
+        Field::make('text', 'video3_id', 'VIDEO_ID (идентификатор видео из ссылки https://youtu.be/VIDEO_ID)'),
         Field::make('rich_text', 'video3_txt', 'Текст под видео')
     ))
     //Промо текст
