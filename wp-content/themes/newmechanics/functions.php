@@ -15,7 +15,6 @@ add_filter( 'wp_default_scripts', 'matrix_remove_jquery_migrate' );
  */
 function matrix_scripts() {
     wp_enqueue_style( 'font-roboto', '//fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700&amp;subset=cyrillic', array(), null );
-    wp_enqueue_style( 'fontawesome', '//use.fontawesome.com/releases/v5.5.0/css/all.css', array(), null );
     wp_enqueue_style( 'app-style', get_template_directory_uri() . '/css/style.min.css', array(), '0.0.1' );
 
     wp_enqueue_script( 'jquery', '//code.jquery.com/jquery-3.3.1.min.js', array(), '3.3.1', true );

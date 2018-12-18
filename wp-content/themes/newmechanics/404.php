@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-    <section>
+    <section class="pageNotFound">
         <div class="container">
-            <div>404 — Страница не найдена.</div>
+            <h1>404 — Страница не найдена.</h1>
             <div><a href="/">Вернуться на главную</a>
             </div>
         </div>
