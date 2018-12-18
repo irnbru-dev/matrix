@@ -2,16 +2,16 @@
 
     <div class="bubbless-bg">
         <div id="bg0"></div>
-        <div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:0px -2900px;"></div>
-        <div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:0px -2700px;"></div>
-        <div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:0px -2500px;"></div>
-        <div id="bg4" data-0="background-position:0px 0px;" data-end="background-position:0px -2300px;"></div>
-        <div id="bg5" data-0="background-position:0px 0px;" data-end="background-position:0px -2100px;"></div>
-        <div id="bg6" data-0="background-position:0px 0px;" data-end="background-position:0px -1900px;"></div>
-        <div id="bg7" data-0="background-position:0px 0px;" data-end="background-position:0px -1700px;"></div>
-        <div id="bg8" data-0="background-position:0px 0px;" data-end="background-position:0px -1500px;"></div>
-        <div id="bg9" data-0="background-position:0px 0px;" data-end="background-position:0px -1300px;"></div>
-        <div id="bg10" data-0="background-position:0px 0px;" data-end="background-position:100px -1000px;"></div>
+        <div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg4" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg5" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg6" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg7" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg8" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg9" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
+        <div id="bg10" data-0="background-position:0px 0px;" data-end="background-position:0px -1000px;"></div>
     </div>
 
     <div class="contacts">
